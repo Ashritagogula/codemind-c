@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    float bs,hra,da,pf,gross;
+    float bs,hra,da;
     scanf("%f%f%f",&bs,&hra,&da);
-    pf=0.12*bs;
-    gross=bs+hra+da+pf;
+    float pf= 0.12*bs;
+    float gs=bs+hra+da+pf;
     printf("%.2f
-",pf);
-    printf("%.2f",gross);
+%.2f
+",pf,gs);
 }
