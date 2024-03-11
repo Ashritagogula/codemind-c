@@ -3,6 +3,6 @@ int main()
 {
     int x,y;
     scanf("%d%d",&x,&y);
-    int fill= x*y/(x+y);
-    printf("%d",fill);
+    int c=x*y/(x+y);
+    printf("%d",c);
 }
