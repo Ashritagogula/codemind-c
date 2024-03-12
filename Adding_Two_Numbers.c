@@ -1,8 +1,10 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int main()
 {
-    int a,b;
-    scanf("%d%d",&a,&b);
-    int c=a+b;
-    printf("%d ",c);
+    int num1,num2;
+    cin >> num1;
+    cin >> num2;
+    int sum = num1+num2;
+    cout << sum;
 }
