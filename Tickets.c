@@ -5,7 +5,7 @@ int main()
     scanf("%d",&x);
     if(x>1000/4)
     {
-         printf("NO");
+        printf("NO");
     }
     else
     {
