@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int X;
-    scanf("%d",&X);
-    if(X>1000/4)
+    int x;
+    scanf("%d",&x);
+    if(x>1000/4)
     {
-        printf("NO");
+         printf("NO");
     }
-    else 
+    else
     {
         printf("YES");
     }
